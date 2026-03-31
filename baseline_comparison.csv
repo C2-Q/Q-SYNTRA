@@ -1,0 +1,8 @@
+Anomaly type,SIS,OIS_JSD,TVD,Fidelity
+missing_1q,0.985,0.565,0.413,—
+missing_2q,0.949,0.501,0.458,—
+swap,0.978,0.533,0.381,—
+reorder,0.999,0.127,0.841,—
+mild_combo,0.984,0.114,0.864,—
+moderate_combo,0.948,0.102,0.875,—
+severe_combo,0.940,0.172,0.800,—
