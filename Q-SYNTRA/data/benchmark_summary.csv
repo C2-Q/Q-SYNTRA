@@ -1,0 +1,9 @@
+anomaly,primary_sis_component,n_circuits,mean_SIS,std_SIS,mean_IGSL,std_IGSL,mean_IGSL_time_sec,mean_IGSL_edge_diff,mean_IGSL_node_diff,mean_IGSL_order_diff,mean_IGSL_interaction_diff,mean_IGSL_usage_diff,mean_OIS,std_OIS,mean_OIS_time_sec
+gate_deletion_1q,"gate_count, depth",133,0.9845,0.0213,0.5537,0.1091,0.021687,0.8777,0.5578,0.583,0.0,0.028,0.5675,0.3787,0.292319
+gate_deletion_2q,"gate_count, CNOT_count, depth",133,0.9492,0.0734,0.6193,0.1676,0.02264,0.7501,0.426,0.4652,0.1168,0.027,0.4994,0.3381,0.284515
+gate_insertion,"gate_count, depth increase",133,0.9808,0.0265,0.7535,0.1486,0.021279,0.5526,0.2924,0.293,0.0,0.0264,0.4399,0.1529,0.299484
+gate_substitution,DAG_topology only,133,1.0,0.0,0.9927,0.0093,0.02093,0.0,0.0067,0.0247,0.0,0.0,0.6379,0.2686,0.283819
+gate_reorder,DAG_topology only,133,0.9992,0.0032,0.4562,0.0735,0.022264,0.8832,0.7604,0.7258,0.0,0.0,0.1274,0.2652,0.390061
+trojan_NOT,gate_count only,133,0.9845,0.0219,0.5761,0.111,0.021294,0.8489,0.5073,0.5803,0.0,0.0292,0.338,0.432,0.289437
+trojan_H,gate_count only,133,0.9845,0.0219,0.5764,0.1118,0.021819,0.8489,0.5062,0.5811,0.0,0.0292,0.466,0.1097,0.285945
+qubit_swap,"CNOT_count, DAG_topology",133,0.9775,0.0273,0.9065,0.1072,0.021225,0.1382,0.0625,0.0241,0.2145,0.032,0.5328,0.3821,0.341791
