@@ -34,7 +34,10 @@ The goal is to understand how these perspectives respond to controlled anomalies
 ├── data/
 │   ├── benchmark_fixed.csv
 │   ├── benchmark_severity.csv
-│   └── benchmark_summary.csv
+│   ├──  benchmark_summary.csv
+│   ├── igsl_sensitivity_when_sis_high.csv
+│   ├── runtime_igsl_vs_ois_vs_qubits.csv
+│   └── skipped_circuits_log.csv
 │
 ├── figures/
 │   ├── Fig_severity_SIS_boxplot_faceted.png
@@ -45,7 +48,6 @@ The goal is to understand how these perspectives respond to controlled anomalies
 │   └── Fig_runtime_3panel_by_severity.png
 │
 ├── tables/
-│   ├── table_main_metric_summary_fixed.csv
 │   ├── table_detection_performance_structural_blindspots_by_severity.csv
 │   └── table_igs_vs_ois_correlation_by_severity.csv
 │
